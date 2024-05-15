@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Install Qt
+      uses: jurplel/install-qt-action@v3
     - name: configure
       run: qmake -config release
     - name: make
