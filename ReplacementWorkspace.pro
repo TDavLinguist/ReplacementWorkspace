@@ -3,7 +3,7 @@
 # #####################################################################
 QT += xml widgets gui
 TEMPLATE = app
-TARGET = 
+TARGET = ReplacementWorkspace
 DEPENDPATH += .
 INCLUDEPATH += .
 
